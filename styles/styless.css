@@ -1,0 +1,126 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Konkhmer Sleokchher', serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kosugi Maru', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  /* Navigation Styles */
+  
+  .navlinks {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fcfee3;
+    padding: 20px;
+  }
+  
+  .navlinks li {
+    margin-right: 20px;
+  }
+  
+  .navlinks a {
+    text-decoration: none;
+    color: #708069;
+  }
+  
+  /* Menu Styles */
+  
+  .menu-links {
+    font-family: 'Konkhmer Sleokchher', serif;
+    padding: 20px;
+  }
+  
+  .menu-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-links li {
+    padding: 10px;
+    border-bottom: 1px solid #708069;
+  }
+  
+  .menu-links a {
+    text-decoration: none;
+    color: #708069;
+  }
+  
+  /* Contact Us Styles */
+  
+  #contact-us-body {
+    background: linear-gradient(180deg, #fcfee3 0%, #708069 100%);
+  }
+  
+  #kkohi-sched {
+    color: #708069;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 4em;
+  }
+  
+  #kkohi-sched-text {
+    color: #708069;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  /* Forms Styles */
+  
+  #forms {
+    border: 5px solid #fcfee3;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Kosugi Maru', serif;
+    color: #fcfee3;
+    gap: 10px;
+  }
+  
+  #submit-button {
+    font-family: 'Kosugi Maru', serif;
+    align-self: center;
+    color: #708069;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 630px) {
+    .navlinks {
+      display: none;
+    }
+  
+    .menu-links, .mobile-nav {
+      display: block;
+    }
+  
+    .menu-links {
+      font-family: 'Konkhmer Sleokchher', serif;
+    }
+  }
